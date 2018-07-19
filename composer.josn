@@ -1,6 +1,12 @@
 {
     "name": "social_plugin",
     "description": "Allow to add Social Login & Sign Up integration",
+    "version": "dev-master",
+    "source": {
+                "url": "github.com/samer-alsayegh/social_plugin.git",
+                "type": "git",
+                "reference": "master"
+            },
     "authors": [
         {
             "name": "Samer El Sayegh",
@@ -14,7 +20,6 @@
         "files": [
             "src/app/helpers.php"
         ]
-    },
     },
     "minimum-stability": "dev",
     "prefer-stable": true
