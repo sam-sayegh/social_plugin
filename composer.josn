@@ -1,5 +1,5 @@
 {
-    "name": "social_plugin",
+    "name": "samer-alsayegh/social_plugin",
     "description": "Allow to add Social Login & Sign Up integration",
     "version": "dev-master",
     "source": {
