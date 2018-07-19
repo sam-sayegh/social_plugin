@@ -1,19 +1,16 @@
-"repositories": [
-    {
-        "type": "package",
-        "package": {
-            "name": "samer-alsayegh/social_plugin",
-            "version": "dev-master",
-            "source": {
-                "url": "git://github.com/samer-alsayegh/social_plugin.git",
-                "type": "git",
-                "reference": "master"
-            },
-            "autoload": {
-                "psr-0" : {
-                    "samer-alsayegh\\social_plugin" : "src"
-                }
-            }
+{
+    "name": "social_plugin",
+    "type": "package",
+    "description": "Add Social Login & Sign Up integration to Laravel Lumen Framework",
+    "authors": [
+        {
+            "name": "Samer Al Sayegh",
+            "email": "samersamiralsayegh@gmail.com",
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "samer-alsayegh\\social_plugin": "src"
         }
     }
-],
+}
