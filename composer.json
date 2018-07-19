@@ -9,9 +9,6 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "samer-alsayegh\\social_plugin\\": "src/"
-        },
         "files": [
             "src/app/helpers.php"
         ]
