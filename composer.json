@@ -1,5 +1,5 @@
 {
-    "name": "sam/social-plugin",
+    "name": "sam/social_plugin",
     "type": "package",
     "description": "Add Social Login & Sign Up integration to Laravel Lumen Framework",
     "authors": [
