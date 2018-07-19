@@ -1,6 +1,5 @@
 {
     "name": "samer-alsayegh/social_plugin",
-    "type": "library",
     "description": "Add Social Login and Sign Up integration to Laravel Lumen Framework",
     "authors": [
         {
