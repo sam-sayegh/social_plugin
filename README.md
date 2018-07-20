@@ -1,6 +1,6 @@
 <h1>Social Plugin</h1>
 <p>
-This library is a social Login and Sign Up integration based on Laravel/Lumen Framework and laravel/socialite.
+This package is a social Login and Sign Up integration based on Laravel/Lumen Framework and laravel/socialite.
 
 So, first to use this library you should install <a href="https://lumen.laravel.com/docs/5.6">laravel/lumen.</a>, and then intall the <a href="https://laravel.com/docs/5.6/socialite">laravel/socialite.</a>
 
