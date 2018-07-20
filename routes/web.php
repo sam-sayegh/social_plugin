@@ -15,6 +15,13 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->get('/api/test', 'ExampleController@index');
+/*
+ * Edited by Samer Al Sayegh:
+ * This is the route for calling the social plugin
+ */
 $router->get('login/{app}', 'Auth\LoginController@redirectToProvider');
+/*
+ * Edited by Samer Al Sayegh:
+ * This is the route for the call back from the pattform after successful login
+ */
 $router->get('login/{app}/callback', 'Auth\LoginController@handleProviderCallback');
