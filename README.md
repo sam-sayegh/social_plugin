@@ -36,7 +36,7 @@ After you have finished intalling lumen and socialite, then install this library
         	<li>Add folder config at the root of the app</li>
             <br>
             <li>Add in folder config file services.php<br>
-            This file contains the id, secret, and callback url of each plattform used(Facebook, Github, Twitter, etc..)
+            This file contains the id, secret, and callback url of each platform used(Facebook, Github, Twitter, etc..)
             </li>
             <br>
        </ul>
@@ -48,7 +48,7 @@ After you have finished intalling lumen and socialite, then install this library
         	<li>Add folder Auth inside app/Http/Controllers</li>
             <br>
             <li>Add in folder file LoginController.php<br>
-            This file is responsible for the functions that handles the call to the plattform and the callback returned to get the userinfo
+            This file is responsible for the functions that handles the call to the platform and the callback returned to get the userinfo
             </li>
             <br>
        </ul>
