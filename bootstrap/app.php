@@ -22,11 +22,16 @@ try {
 $app = new Laravel\Lumen\Application(
     realpath(__DIR__.'/../')
 );
-
+//Edited by Samer Al Sayegh: This should be uncommented for the Socialite to work(ift uses facade)
 $app->withFacades();
 
 // $app->withEloquent();
 
+/*
+ * Edited by Samer Al Sayegh:
+ * This is added to define an alias for the Socialite Class
+ * to be used in the classes needed as use Socialite rather than the whole namespace Laravel\Socialite\Facades\Socialite
+ */
 if (!class_exists('Socialite')) {
     class_alias('Laravel\Socialite\Facades\Socialite', 'Socialite');
 }
@@ -85,6 +90,10 @@ $app->singleton(
 // $app->register(App\Providers\AppServiceProvider::class);
 // $app->register(App\Providers\AuthServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
+/*
+ * Edited by Samer Al Sayegh:
+ * This is added to register the socialite service provider when running the app
+ */
 $app->register(Laravel\Socialite\SocialiteServiceProvider::class);
 
 /*
@@ -103,5 +112,9 @@ $app->router->group([
 ], function ($router) {
     require __DIR__.'/../routes/web.php';
 });
+/*
+ * Edited by Samer Al Sayegh:
+ * This is added to let the system use include the services.php variables to the config
+ */
 $app->configure('services');
 return $app;
